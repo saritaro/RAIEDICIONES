@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+body{
+    background: #4ca4ac;
+    font-family:'Lato', sans-serif;
+    line-height:15px;
+}
+a{
+    text-decoration: none;
+    text-align:none;
+    color:#fff;
+    font-size: 12px;
+}
+.cont-menu{
+    width:10%; /*lo que abarca en la pantalla */
+    min-width:150px;
+    margin:30px;
+    display:inline-block;
+    font-family:'Lato', sans-serif;
+    line-height:10px; /* separación de las lineas */
+    float:left;
+}
+.cont-menu .menu{
+    width:100%; /*y dentro del contenedor abarca el 100%*/
+}
+.cont-menu ul{
+    list-style:none;
+}
+.cont-menu li a{
+    color:#fff;
+    display:block;
+    padding: 10px 10px;
+    background: #048d9d;
+}
+.cont-menu .menu li a:hover{
+    background:#037c8a;
+    color:#fff;
+}
+.cont-menu .menu .icono{
+    font-size: 10px;
+    line-height:15px;
+    float:right;
+    margin-left:10px;
+}
+.cont-menu .menu ul{
+    display:none; /*ocultar submenú*/
+}
+.cont-menu .menu ul li a{
+    background:#036b77;
+    color: #ffff;
+}
+.cont-menu .menu .activado > a{ /* cuando picho se queda marcado*/
+    background:#037c8a;
+    color:#fff;
+}
+
+.cont .idiomas img{
+    width:23px;
+    height:23px;
+}
+.cont .idiomas{
+    float:right;
+    margin-right:30px;
+    margin-top:10px;
+}
+/************************* SLIDER ***************************/
+
+ol{
+    list-style:none;
+}
+.slider img{
+    width:100%;
+}
+
+.slider .caption{
+    position:absolute;
+    font-family:'Lato', sans-serif;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    padding: 15px 50px;
+    justify-content:center;
+    z-index:1;
+
+}
+.paginas{ /* circulos paginados */
+    position:absolute;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    padding: 15px 50px;
+}
+.paginas li{
+    font-size:10px;
+    margin:2px 5px;
+    color:#fff;
+    cursor:pointer;
+}
+.left, .right{ /* flechitas*/
+    position:absolute;
+    top:0;
+    height:100%;
+    display:flex;
+    align-items:center;
+    color:#fff;
+    font-side:35px;
+    z-index:2;
+    cursor:pointer;
+
+}
+.left{
+    left:10px;
+}
+.right{
+    right:10px;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
