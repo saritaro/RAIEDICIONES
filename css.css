@@ -4,11 +4,13 @@
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
+    list-style:none;
 }
 body{
     background: #4ca4ac;
     font-family:'Lato', sans-serif;
     line-height:15px;
+    list-style:none;
 }
 a{
     text-decoration: none;
@@ -70,12 +72,18 @@ a{
 }
 /************************* SLIDER ***************************/
 
+.cont .cont-slider{
+    width:50%; /*lo que abarca en la pantalla */
+    float:right;
+    margin-right:30%;
+
+    margin-top:15px;
+}
 ol{
     list-style:none;
 }
 .slider img{
-    width:100%;
-}
+    width:100%;}
 
 .slider .caption{
     position:absolute;
@@ -83,23 +91,24 @@ ol{
     color:#fff;
     display:flex;
     flex-direction:column;
-    padding: 15px 50px;
+    padding: 10px;
     justify-content:center;
     z-index:1;
-
 }
 .paginas{ /* circulos paginados */
     position:absolute;
-    width:100%;
+    width:50%;
     display: flex;
     justify-content:center;
-    padding: 15px 50px;
+    padding:10px;
+
 }
 .paginas li{
     font-size:10px;
     margin:2px 5px;
     color:#fff;
     cursor:pointer;
+
 }
 .left, .right{ /* flechitas*/
     position:absolute;
@@ -111,17 +120,18 @@ ol{
     font-side:35px;
     z-index:2;
     cursor:pointer;
-
+    float:right;
+    margin-right:30%;
+    margin-left:20%;
 }
 .left{
     left:10px;
+
 }
 .right{
     right:10px;
 }
-
-
-*/
+/************************* SLIDER ***************************/
 
 
 
