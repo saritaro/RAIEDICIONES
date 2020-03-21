@@ -26,7 +26,7 @@ $(document).ready(function(){
 
     $('.slider li').hide(); // ocultamos las img
     $('.slider li:first').show(); //mostramos la primera
-    $('.paginas li:first').css({'color':'#000'}); // damos colores a la primera img
+    $('.paginas li:first').css({'color':'#037c8a'}); // damos colores a la primera img
 
     //funciones
     $('.paginas li').click(pagination);
@@ -44,7 +44,7 @@ $(document).ready(function(){
 
         // le damos estilos
         $('.paginas li').css({'color':'#fff'});
-        $(this).css({'color':'#000'});
+        $(this).css({'color':'#037c8a'});
 
         imgPos = paginationPos;
     }
@@ -57,7 +57,7 @@ $(document).ready(function(){
         }
         // le damos estilos
         $('.paginas li').css({'color':'#fff'});
-        $('.paginas li:nth-child('+imgPos+')').css({'color':'#000'});
+        $('.paginas li:nth-child('+imgPos+')').css({'color':'#037c8a'});
 
         $('.slider li').hide();
         $('.slider li:nth-child('+imgPos+')').fadeIn(); //mostramos la img seleccionada
@@ -71,7 +71,7 @@ $(document).ready(function(){
         }
         // le damos estilos
         $('.paginas li').css({'color':'#fff'});
-        $('.paginas li:nth-child('+imgPos+')').css({'color':'#000'});
+        $('.paginas li:nth-child('+imgPos+')').css({'color':'#037c8a'});
 
         $('.slider li').hide();
         $('.slider li:nth-child('+imgPos+')').fadeIn(); //mostramos la img seleccionada
